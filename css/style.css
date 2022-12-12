@@ -1,0 +1,9 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+.about-me{
+    width: 20%;
+    color: #fff;
+    background-color: #028E9B;
+}
