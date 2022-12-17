@@ -4,9 +4,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 26px;
-    min-height: 100vh;
-    position: relative;
+    line-height: 24px;
 }
 .header, .wrap {
     display: flex;
@@ -85,14 +83,12 @@ img.fire {
     padding: 0 0 3px;
     border-bottom: 0.5px solid transparent;
 }
-.navigation li a, .exp__ul li a{
-    display: inline-block;
-    padding: 0 3px 3px;
+.navigation li a{
+    display: block;
     color: #000;
     text-decoration: none;
-    border-bottom: 0.5px solid transparent;
 }
-.navigation li a:hover, .exp__ul li a:hover {
+.navigation li:hover {
     border-bottom: 0.5px solid #028E9B;
     transition: 0.3s ease;
 }
@@ -112,12 +108,8 @@ h2 {
     margin-bottom: 25px;
     text-transform: uppercase;
 }
-.contacts__ul, .skills_ul, .exp__ul, .edu__ul {
+.contacts__ul, .skills_ul, .exp__ul {
     list-style-type: none;
-}
-.exp__ul li, .exp__ul li a {
-    margin-left: 0;
-    padding-left: 0;
 }
 .information section {
     margin-left: 40px;
@@ -136,15 +128,26 @@ h2 {
 .exp__ul {
     margin-bottom: 70px;
 }
-.lang {
-    padding-bottom: 70px;
+.exp__ul li a {
+    text-decoration: none;
+    color: #000;
 }
-.footer {
-    position: absolute;
-    bottom: 0;
-    height: 35px;
-    background-color: #000;
-    width: 100%;
+.exp__ul li {
+    list-style-type: none;
+    /* padding: 0 0 3px; */
+    border-bottom: 0.5px solid transparent;
 }
-
-
+.exp__ul li a {
+    display: block;
+    padding: 0 0 3px;
+    border-bottom: 0.5px solid transparent;
+}
+.exp__ul li a:hover {
+    display: block;
+    padding: 0 0 3px;
+    border-bottom: 0.5px solid #028E9B;
+}
+/* .exp__ul li:hover {
+    border-bottom: 0.5px solid #028E9B;
+    transition: 0.3s ease;
+} */

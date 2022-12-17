@@ -19,9 +19,7 @@ body {
     color: #fff;
     background-color: #028E9B;
 }
-.image-wrap {
-    position: relative;
-}
+
 .avatar {
     position: relative;
     z-index: 100;

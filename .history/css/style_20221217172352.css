@@ -6,7 +6,9 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 26px;
     min-height: 100vh;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .header, .wrap {
     display: flex;
@@ -140,8 +142,6 @@ h2 {
     padding-bottom: 70px;
 }
 .footer {
-    position: absolute;
-    bottom: 0;
     height: 35px;
     background-color: #000;
     width: 100%;

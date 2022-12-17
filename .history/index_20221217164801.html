@@ -14,7 +14,7 @@
     <header class="header">
             <div class="image-wrap">
                 <div class="avatar">
-                    <img src="./assets/img/my-photo.jpg" alt="Smiling me in the morning" title="Smiling me in the morning">
+                    <img src="./assets/img/my-photo.jpg" alt="Smiling me">
                 </div>
                 <div class="icons">
                     <img src="./assets/img/h5.svg" alt="html5" class="html">
@@ -22,7 +22,7 @@
                     <img src="./assets/img/react.svg" alt="react" class="react">
                     <img src="./assets/img/git.svg" alt="git" class="git">
                     <img src="./assets/img/js.svg" alt="javascript" class="js">
-                    <img src="./assets/img/brain.svg" alt="zombie-e-e-e" title="in the end of the day" class="fire">
+                    <img src="./assets/img/brain.svg" alt="zombie-e-e-e" title="too much hardworking" class="fire">
                 </div>
             </div>
             <div class="general-part">
@@ -110,29 +110,29 @@
                 </div>
                 <p>React-project:</p>
                 <div class="code-wrap">
-<code class="code">
-    <pre>
-        { basket.map((item, index) => {
-            return (
-                &lt;div className="basket__item" key={index}&gt;
-                    &lt;BasketItem
-                        id = { item.id }
-                        url = { item.img }
-                        name = { item.title }
-                        price = { item.price}
-                        count = { item.count }
-                    /&gt;
-                &lt;/div&gt;
-            )
-        }
-    </pre>
-</code>
+                    <code class="code">
+                        <pre>
+                            { basket.map((item, index) => {
+                                return (
+                                    &lt;div className="basket__item" key={index}&gt;
+                                        &lt;BasketItem
+                                            id = { item.id }
+                                            url = { item.img }
+                                            name = { item.title }
+                                            price = { item.price}
+                                            count = { item.count }
+                                        /&gt;
+                                    &lt;/div&gt;
+                                )
+                            }
+                        </pre>
+                    </code>
                 </div>
             </section>
             <section id="exp" class="exp">
                 <h2>Experience</h2>
                 <p>2020-2022 - HTML-coding, website creation and development, creation some portfolio cases</p>
-                <ul class="exp__ul">
+                <ul>
                     <li><a href="https://gitlab.com/olga_paderina/react-module">React-project</a></li>
                     <li><a href="https://gitlab.com/olga_paderina/module-javascript">JS-project</a></li>
                     <li><a href="https://gitlab.com/olga_paderina/frontend_course_2">HTML-project</a></li>
@@ -140,7 +140,7 @@
             </section>
             <section class="education" id="edu">
                 <h2>Education</h2>
-                <ul class="edu__ul">
+                <ul>
                     <li>2006 - faculty of psychology, St. Petersburg Institute of Foreign Economic Relations, Economics and Law</li>
                     <li>2022, Innopolis University - junior frontend-developer (completed)</li>
                     <li>Courses (completed): Geekbrains, IT-kama, HTML Academy</li>
@@ -153,7 +153,7 @@
             </section>
         </div>
     </main>
-    <footer class="footer">
+    <footer>
 
     </footer>
 </body>
