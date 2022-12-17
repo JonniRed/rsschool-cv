@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header, .wrap {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image-wrap, .about-me{
+    width: 30%;
+    color: #fff;
+    background-color: #028E9B;
+}
+.image-wrap {
+    position: relative;
+}
+.avatar {
+    z-index: 100;
+}
+.avatar img {
+    display: block;
+    margin: 80px auto 40px;
+    width: 207px;
+    border-radius: 109px;
+}
+.image-wrap div:not(:first-child) {
+    background-color: #fff;
+}
+.html, .css {
+    width: 56px;
+    height: 56px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.html img, .css img{
+    display: block;
+    width: 84%;
+    margin: 4px auto;
+    box-sizing: border-box;
+}
+.html {
+    position: absolute;
+    top: 195px;
+    left: 39px;
+}

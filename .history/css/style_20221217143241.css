@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header, .wrap {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image-wrap, .about-me{
+    width: 30%;
+    color: #fff;
+    background-color: #028E9B;
+}
+.avatar img {
+    display: block;
+    margin: 80px auto 40px;
+    width: 207px;
+    border-radius: 109px;
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header, .wrap {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image-wrap, .about-me{
+    width: 30%;
+    color: #fff;
+    background-color: #028E9B;
+}
+.image-wrap {
+    position: relative;
+}
+.avatar img {
+    display: block;
+    margin: 80px auto 40px;
+    width: 207px;
+    border-radius: 109px;
+}
+.image-wrap div:not(:first-child) {
+    background-color: #fff;
+}
+.html, .css {
+    
+}
+.html img, .css img{
+    width: 56px;
+    height: 56px;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
