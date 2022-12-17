@@ -137,9 +137,10 @@ h2 {
     margin-bottom: 70px;
 }
 .lang {
-    padding-bottom: 140px;
+    padding-bottom: 70px;
 }
 .footer {
+    margin: 0 auto;
     position: absolute;
     bottom: 0;
     background-color: #000;
@@ -153,11 +154,17 @@ h2 {
 }
 .footer h2 {
     color: #fff;
-    margin: 21px 40px;
+    margin: 10px 40px;
 }
-.logo a img, .footer-git a img {
-    width: 60px;
-
+.logo a img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 7px 0 0;
+}
+.footer-git a img {
+    width: 35px;
+    height: 35px;
 }
 
 
