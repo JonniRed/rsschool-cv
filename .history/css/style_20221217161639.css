@@ -4,7 +4,6 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 22px;
 }
 .header, .wrap {
     display: flex;
@@ -94,8 +93,7 @@ img.fire {
     transition: 0.3s ease;
 }
 .h1 {
-    font-size: 40px;
-    margin: 109px 0px 40px 60px;
+    margin: 109px 30px 40px;
     text-transform: uppercase;
 }
 .about-me__info, .contacts {
@@ -104,11 +102,4 @@ img.fire {
 .about-me a {
     color: #fff;
     text-decoration: none;
-}
-h2 {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-}
-.contacts__ul li {
-    list-style-type: none;
 }

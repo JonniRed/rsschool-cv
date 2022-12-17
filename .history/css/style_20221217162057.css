@@ -94,7 +94,6 @@ img.fire {
     transition: 0.3s ease;
 }
 .h1 {
-    font-size: 40px;
     margin: 109px 0px 40px 60px;
     text-transform: uppercase;
 }
@@ -106,8 +105,7 @@ img.fire {
     text-decoration: none;
 }
 h2 {
-    margin-bottom: 25px;
-    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .contacts__ul li {
     list-style-type: none;
