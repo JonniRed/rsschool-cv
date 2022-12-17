@@ -25,7 +25,7 @@ body {
 }
 .avatar img {
     display: block;
-    margin: 92px 114px 0px;
+    margin: 92px 114px 40px;
     width: 207px;
     border-radius: 109px;
 }
@@ -79,17 +79,13 @@ img.fire {
 .navigation li {
     list-style-type: none;
     margin: 0 10px;
-    padding: 0 0 3px;
-    border-bottom: 0.5px solid transparent;
 }
-.navigation li a{
-    display: block;
-
+.navigation li a {
     color: #000;
     text-decoration: none;
 }
-.navigation li:hover {
-    border-bottom: 0.5px solid #028E9B;
+.navigation li a:hover {
+    text-decoration: 0.5px solid #028E9B;
     transition: 0.3s ease;
 }
 .h1 {

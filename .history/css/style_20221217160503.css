@@ -25,7 +25,7 @@ body {
 }
 .avatar img {
     display: block;
-    margin: 92px 114px 0px;
+    margin: 92px 114px 40px;
     width: 207px;
     border-radius: 109px;
 }
@@ -88,7 +88,7 @@ img.fire {
     color: #000;
     text-decoration: none;
 }
-.navigation li:hover {
+.navigation li:hover a {
     border-bottom: 0.5px solid #028E9B;
     transition: 0.3s ease;
 }

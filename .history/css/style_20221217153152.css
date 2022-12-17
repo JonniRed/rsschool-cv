@@ -8,7 +8,6 @@ body {
 .header, .wrap {
     display: flex;
     justify-content: center;
-    width: 1137px;
     margin: 0 auto;
 }
 .image-wrap, .about-me{
@@ -25,10 +24,13 @@ body {
 }
 .avatar img {
     display: block;
-    margin: 92px 114px 0px;
+    margin: 80px 123px 40px;
     width: 207px;
     border-radius: 109px;
 }
+/* .image-wrap div:not(:first-child) {
+    background-color: #fff;
+} */
 .icons {
     width: 250px;
     height: 250px;
@@ -37,62 +39,30 @@ body {
     position: absolute;
     top: 20px;
     left: 4px;
+
+
 }
 .icons img{
     position: absolute;
     width: 18%;
 }
 .html {
-    bottom: -36px;
+    bottom: -11px;
     left: 77px;
 }
 img.css {
-    top: 187px;
+    top: 162px;
     left: 24px;
 }
 img.react {
-    top: 62px;
+    top: 37px;
     left: 33px;
 }
 img.git {
-    top: 125px;
+    top: 100px;
     left: 18px;
 }
 .js {
-    top: 27px;
+    top: 2px;
     left: 92px;
-}
-img.fire {
-    width: 14%;
-    top: 25px;
-    right: 50px;
-}
-.navigation {
-    display: flex;
-    justify-content: flex-end;
-    margin: 40px 0 0;
-
-}
-.general-part, .information {
-    width: 70%;
-}
-.navigation li {
-    list-style-type: none;
-    margin: 0 10px;
-    padding: 0 0 3px;
-    border-bottom: 0.5px solid transparent;
-}
-.navigation li a{
-    display: block;
-
-    color: #000;
-    text-decoration: none;
-}
-.navigation li:hover {
-    border-bottom: 0.5px solid #028E9B;
-    transition: 0.3s ease;
-}
-.h1 {
-    margin: 109px 30px 40px;
-    text-transform: uppercase;
 }
