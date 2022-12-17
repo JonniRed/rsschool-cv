@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header, .wrap {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image-wrap, .about-me{
+    width: 30%;
+    color: #fff;
+    background-color: #028E9B;
+}
+.image-wrap {
+    position: relative;
+}
+.avatar {
+    position: relative;
+    z-index: 100;
+}
+.avatar img {
+    display: block;
+    margin: 80px 123px 40px;
+    width: 207px;
+    border-radius: 109px;
+}
+/* .image-wrap div:not(:first-child) {
+    background-color: #fff;
+} */
+.icons {
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 125px;
+    position: absolute;
+    top: 20px;
+    left: 4px;
+    z-index: 0;
+    opacity: .8;
+}
+.icons img{
+    position: absolute;
+    width: 18%;
+}
+.html {
+    bottom: -12px;
+    left: 77px;
+    z-index: 1;
+}
+img.css {
+    top: 181px;
+    left: 48px;
+    width: 24%;
+    z-index: 0;
+}
+img.react {
+    top: -7px;
+    left: 33px;
+    width: 46%;
+    z-index: 2;
+}
+img.git {
+    top:70px;
+    left: 0;
+    width: 40%;
+    z-index: 0;
+}
