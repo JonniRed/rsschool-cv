@@ -153,11 +153,17 @@ h2 {
 }
 .footer h2 {
     color: #fff;
-    margin: 21px 40px;
+    margin: 10px 40px;
 }
-.logo a img, .footer-git a img {
-    width: 60px;
-
+.logo a img {
+    width: 32px;
+    display: block;
+    margin: 7px 0 0;
+}
+.footer-git a img {
+    width: 35px;
+    height: 35px;
+    margin: 7px 0 0;
 }
 
 

@@ -5,8 +5,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 26px;
-    min-height: 100vh;
-    position: relative;
 }
 .header, .wrap {
     display: flex;
@@ -115,9 +113,8 @@ h2 {
 .contacts__ul, .skills_ul, .exp__ul, .edu__ul {
     list-style-type: none;
 }
-.exp__ul li, .exp__ul li a {
+.exp__ul li {
     margin-left: 0;
-    padding-left: 0;
 }
 .information section {
     margin-left: 40px;
@@ -137,27 +134,7 @@ h2 {
     margin-bottom: 70px;
 }
 .lang {
-    padding-bottom: 140px;
-}
-.footer {
-    position: absolute;
-    bottom: 0;
-    background-color: #000;
-    width: 100%;
-}
-.footer-wrap {
-    width: 1137px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-.footer h2 {
-    color: #fff;
-    margin: 21px 40px;
-}
-.logo a img, .footer-git a img {
-    width: 60px;
-
+    padding-bottom: 70px;
 }
 
 

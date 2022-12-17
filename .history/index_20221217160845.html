@@ -14,7 +14,7 @@
     <header class="header">
             <div class="image-wrap">
                 <div class="avatar">
-                    <img src="./assets/img/my-photo.jpg" alt="Smiling me in the morning" title="Smiling me in the morning">
+                    <img src="./assets/img/my-photo.jpg" alt="Smiling me">
                 </div>
                 <div class="icons">
                     <img src="./assets/img/h5.svg" alt="html5" class="html">
@@ -22,7 +22,7 @@
                     <img src="./assets/img/react.svg" alt="react" class="react">
                     <img src="./assets/img/git.svg" alt="git" class="git">
                     <img src="./assets/img/js.svg" alt="javascript" class="js">
-                    <img src="./assets/img/brain.svg" alt="zombie-e-e-e" title="in the end of the day" class="fire">
+                    <img src="./assets/img/brain.svg" alt="zombie-e-e-e" title="too much hardworking" class="fire">
                 </div>
             </div>
             <div class="general-part">
@@ -42,20 +42,8 @@
     </header>
     <main class="wrap">
         <section class="about-me">
-            <div class="contacts" id="contacts">
-                <h2>Contacts</h2>
-                <ul class="contacts__ul">
-                    <li>Phone number</li>
-                    <li><strong> +7 931 288 74 57</strong></li>
-                    <li>E-mail: </li>
-                    <li><strong>joil.paderina@gmail.com</strong></li>
-                    <li>Telegram:</li>
-                    <li><strong>https://t.me/jonni_red</strong></li>
-                    <li><strong><a href="https://gitlab.com/olga_paderina">GitLab</a></strong></li>
-                    <li><strong><a href="https://github.com/JonniRed?tab=repositories">GitHub</a></strong></li>
-                </ul>
-            </div>
-            <div class="about-me__info" id="about-me">
+            <div class="contacts"></div>
+            <div class="about-me__info">
                 <h2>About me</h2>
                 <p>
                     I have the skills formed and developed during training and work, which help me to become part of the team as quickly and efficiently as possible, join the work process and complete the assigned tasks.
@@ -66,9 +54,9 @@
             </div>
         </section>
         <div class="information">
-            <section class="skills" id="skills">
+            <section class="skills">
                 <h2>Skills</h2>
-                <ul class="skills_ul">
+                <ul>
                     <li>Figma</li>
                     <li>HTML5</li>
                     <li>CSS3 (Preprocessor SCSS, BEM-metodology, Bootstrap)</li>
@@ -77,94 +65,85 @@
                     <li>Node (basic knowledge)</li>
                     <li>Editors: Atom, Notepad, Sublime Text, VS Code</li>
                     <li>Git (GitHub, GitLab)</li>
+                    <li>CMS: WordPress, Tilda</li>
                 </ul>
             </section>
-            <section class="code-example" id="code">
+            <section class="code-examble">
                 <h2>Code Examples</h2>
                 <p>In project with user validation:</p>
-                <div class="code-wrap">
-<pre>
-    <code class="code">
-        buttonReg.addEventListener('click', e => {
-            e.preventDefault();
-            let validateOk = getValidationUser();
-            let user = {};
-            user.email = emailData;
-            user.password = passwordData;
-            if(validateOk){
-                if(localStorage.getItem('users').length !== 0) {
-                    let newUser = JSON.parse(localStorage.getItem('users'));
-                    newUser.push(user);
-                    localStorage.setItem('users', JSON.stringify(newUser));
-                }
-                else {
-                    const newUser = [];
-                    newUser.push(user);
-                    localStorage.setItem('users', JSON.stringify(newUser));
-                }
-            }
-            window.location = 'Enter_page.html'
-        })
-    </code>
-</pre>
+                <div>
+                    <code>
+                        <pre>
+                            buttonReg.addEventListener('click', e => {
+                                e.preventDefault();
+                                let validateOk = getValidationUser();
+                                let user = {};
+                                user.email = emailData;
+                                user.password = passwordData;
+                                if(validateOk){
+                                    if(localStorage.getItem('users').length !== 0) {
+                                        let newUser = JSON.parse(localStorage.getItem('users'));
+                                        newUser.push(user);
+                                        localStorage.setItem('users', JSON.stringify(newUser));
+                                    }
+                                    else {
+                                        const newUser = [];
+                                        newUser.push(user);
+                                        localStorage.setItem('users', JSON.stringify(newUser));
+                                    }
+                                }
+                                window.location = 'Enter_page.html'
+                            })
+                        </pre>
+                    </code>
                 </div>
                 <p>React-project:</p>
-                <div class="code-wrap">
-<pre>
-    <code class="code">
-        { basket.map((item, index) => {
-            return (
-                &lt;div className="basket__item" key={index}&gt;
-                    &lt;BasketItem
-                        id = { item.id }
-                        url = { item.img }
-                        name = { item.title }
-                        price = { item.price}
-                        count = { item.count }
-                    /&gt;
-                &lt;/div&gt;
-            )
-        }
-    </code>
-</pre>
+                <div>
+                    <code>
+                        <pre>
+                            { basket.map((item, index) => {
+                                return (
+                                    &lt;div className="basket__item" key={index}&gt;
+                                        &lt;BasketItem
+                                            id = { item.id }
+                                            url = { item.img }
+                                            name = { item.title }
+                                            price = { item.price}
+                                            count = { item.count }
+                                        /&gt;
+                                    &lt;/div&gt;
+                                )
+                            }
+                        </pre>
+                    </code>
                 </div>
             </section>
-            <section id="exp" class="exp">
+            <section>
                 <h2>Experience</h2>
                 <p>2020-2022 - HTML-coding, website creation and development, creation some portfolio cases</p>
-                <ul class="exp__ul">
+                <ul>
                     <li><a href="https://gitlab.com/olga_paderina/react-module">React-project</a></li>
                     <li><a href="https://gitlab.com/olga_paderina/module-javascript">JS-project</a></li>
                     <li><a href="https://gitlab.com/olga_paderina/frontend_course_2">HTML-project</a></li>
                 </ul>
             </section>
-            <section class="education" id="edu">
+            <section class="education">
                 <h2>Education</h2>
-                <ul class="edu__ul">
+                <ul>
                     <li>2006 - faculty of psychology, St. Petersburg Institute of Foreign Economic Relations, Economics and Law</li>
                     <li>2022, Innopolis University - junior frontend-developer (completed)</li>
                     <li>Courses (completed): Geekbrains, IT-kama, HTML Academy</li>
                     <li>Courses in progress - RSSchool (junior web-developer, stage 0)</li>
                 </ul>
             </section>
-            <section class="lang" id="lang">
+            <section class="lang">
                 <h2>English</h2>
                 <p>A1 (in progress)</p>
             </section>
         </div>
     </main>
-    <footer class="footer">
-        <div class="footer-wrap">
-            <div class="logo">
-                <a href="https://github.com/JonniRed?tab=repositories"><img src="./assets/img/git-color.png" alt="link to git"></a>
-            </div>
-            <h2>2022&copy;</h2>
-            <div class="footer-git">
-                <a href="https://rs.school/js-stage0/">
-                    <img src="./assets/img/rs_logo.png" alt="rsschool-logo">
-                </a>
-            </div>
-        </div>
+    <footer>
+
     </footer>
 </body>
 </html>

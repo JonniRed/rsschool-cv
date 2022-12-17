@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header, .wrap {
+    display: flex;
+    justify-content: center;
+    width: 1137px;
+    margin: 0 auto;
+}
+.image-wrap, .about-me{
+    width: 30%;
+    color: #fff;
+    background-color: #028E9B;
+}
+.image-wrap {
+    position: relative;
+}
+.avatar {
+    position: relative;
+    z-index: 100;
+}
+.avatar img {
+    display: block;
+    margin: 92px 114px 40px;
+    width: 207px;
+    border-radius: 109px;
+}
+.icons {
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 125px;
+    position: absolute;
+    top: 20px;
+    left: 4px;
+}
+.icons img{
+    position: absolute;
+    width: 18%;
+}
+.html {
+    bottom: -36px;
+    left: 77px;
+}
+img.css {
+    top: 187px;
+    left: 24px;
+}
+img.react {
+    top: 62px;
+    left: 33px;
+}
+img.git {
+    top: 125px;
+    left: 18px;
+}
+.js {
+    top: 27px;
+    left: 92px;
+}
+img.fire {
+    width: 14%;
+    top: 25px;
+    right: 50px;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 0 0;
+
+}
+.general-part, .information {
+    width: 70%;
+}
+.navigation li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+.navigation li a {
+    color: #000;
+    text-decoration: none;
+}
+.navigation li a:hover {
+    text-decoration: 0.5px solid #028E9B;
+    transition: all 0.3s ease;
+}
+.h1 {
+    margin: 109px 30px 40px;
+    text-transform: uppercase;
+}

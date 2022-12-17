@@ -19,9 +19,7 @@ body {
     color: #fff;
     background-color: #028E9B;
 }
-.image-wrap {
-    position: relative;
-}
+
 .avatar {
     position: relative;
     z-index: 100;
@@ -137,27 +135,14 @@ h2 {
     margin-bottom: 70px;
 }
 .lang {
-    padding-bottom: 140px;
+    padding-bottom: 70px;
 }
 .footer {
     position: absolute;
     bottom: 0;
+    height: 35px;
     background-color: #000;
     width: 100%;
-}
-.footer-wrap {
-    width: 1137px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-.footer h2 {
-    color: #fff;
-    margin: 21px 40px;
-}
-.logo a img, .footer-git a img {
-    width: 60px;
-
 }
 
 
